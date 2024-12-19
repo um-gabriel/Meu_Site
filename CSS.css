@@ -1,0 +1,108 @@
+.card--purple {
+    background: #9c27b0;
+}
+.card--indigo{
+    background: #5c6bc0;
+}
+.card--blue {
+    background: #1e88e5;
+}
+.card--lblue {
+    background: #3891ff;
+}
+.card--cyan {
+    background: #00bcd4;
+}
+
+p {
+    color: green;
+}
+
+p1{
+    color: red;
+}
+
+
+#myDiv {
+    width: 300px;
+    height: 200px;
+    background: red;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+}
+
+.card-hover {
+    display:flex;
+    margin-top: 2em;
+}
+
+.card1 {
+    height: 100px;
+    width: 70px;
+    background: red;
+}
+
+.card2 {
+    height: 100px;
+    width: 70px;
+    background: blue;
+}
+
+.card3 {
+    height: 100px;
+    width: 70px;
+    background: green;
+}
+
+.card4 {
+    height: 100px;
+    width: 70px;
+    background: yellow;
+}
+
+.card5 {
+    height: 100px;
+    width: 70px;
+    background: pink;
+}
+
+/*hover area*/
+
+.card-hover {
+    text-align:center;
+}
+
+.card1:hover{
+    border-radius: 10px;
+    transition: 0.3s;
+    transform: scale(1.5)
+}
+
+.card2:hover{
+    border-radius: 10px;
+    transition: 0.3s;
+    transform: scale(1.5)
+}
+
+.card3:hover{
+    border-radius: 10px;
+    transition: 0.3s;
+    transform: scale(1.5)
+}
+
+.card4:hover{
+    border-radius: 10px;
+    transition: 0.3s;
+    transform: scale(1.5)
+}
+
+.card5:hover{
+    border-radius: 10px;
+    transition: 0.3s;
+    transform: scale(1.5);
+   
+}

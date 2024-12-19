@@ -1,0 +1,26 @@
+#titulo {
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+}
+body {
+    font-family: sans-serif;
+    background-color: rgb(206, 206, 206);
+}
+input {
+    border-radius: 7px;
+    width: 200px;
+}
+
+#Profissao {
+    border-radius: 7px;
+}
+
+#buto {
+    border-radius: 10px;
+    width: 100px;
+    height: 50pxs;
+    background-color: aqua;
+    font-weight: bold;
+    font-size: x-large;
+    border: 5px red solid
+}

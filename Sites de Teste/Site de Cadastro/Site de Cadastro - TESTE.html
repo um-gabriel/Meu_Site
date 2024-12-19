@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>TESTE Site de Cadastro</title>
+    </head>
+<link rel="stylesheet" href="CSS do Site de Cadastro.css">
+
+<body>
+    <div>
+        <h1 id="titulo">CADASTRO DO CURSO</h1>
+        <P>Preencha as Infomações</P>
+        <br>
+    </div>
+
+    <form>
+
+    <fieldset class="grupo">
+        <div class="campo">
+            <label for="nome"><strong>Nome</strong></label>
+            <input type="text" name="Nome" id="nome" required> 
+        </div>
+        
+        <div class="campo">
+            <label for="Sobrenome"><strong>Sobrenome</strong></label>
+            <input type="text" name="Sobrenome" id="sobrenome" required>
+        </div>    
+    </fieldset>
+
+    <div class="campo">
+        <label for="email"><strong>E-mail</strong></label>
+        <input type="email" name="email" id="email" required>
+    </div>
+
+    <div class="campo">
+        <label><strong>Qual curso deseja fazer?</strong></label>
+        <label>
+            <input type="radio" name="devweb" value="fontend" checked>Total Conhecimento
+        </label>
+
+        <label>
+            <input type="radio" name="devweb" value="backend">Pouco Conhecimento
+        </label>
+        <label>
+            <input type="radio" name="devweb" value="fullstack">Nenhum Conhecimento
+        </label>
+    </div>
+
+    <div class="campo">
+        <label for="senioridade"><strong>Selecione Uma Profissão</strong></label>
+        <select id="Profissao" Profissão>
+            <option selected disabled value="">Selecionar</option>
+            <option>Professor</option>
+            <option>Engenheiro</option>
+            <option>Motorista</option>
+            <option>Outras</option>
+        </select>
+    </div>
+
+    <fieldset class="grupo">
+        <div id="check">
+            <label><strong>Selecione o curso que gostaria de fazer</strong></label><br><br>
+            <input type="checkbox" id="tecnological1" name="tecnological1" value="Engenharia">
+            <label for="tecnological">Engenharia</label>
+            <input type="checkbox" id="tecnological2" name="tecnological2" value="Arquitetura">
+            <label for="tecnological2">Arquitetura</label>
+            <input type="checkbox" id="tecnological3" name="tecnological3" value="JavaScript">
+            <label for="tecnological3">Mecânica</label>
+            <input type="checkbox" id="tecnological4" name="tecnological" value="Engenharia">
+            <label for="tecnological">Engenharia</label>
+        </div>
+    </fieldset>
+
+    </form>
+
+    <button id="buto">Butao</button>
+
+</body>
+
+</html>

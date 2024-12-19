@@ -1,0 +1,43 @@
+#ToB{
+    color: brown;
+    font-size: 50px;
+}
+
+button {
+    color: lightgoldenrodyellow;
+    font-size: 30px;
+}
+.b1{
+    background-color: red;
+    border: none;
+}
+.b2{
+    background-color: blue;
+    border: 5px brown solid;
+}
+.b3{
+    background-color: yellow;
+    border: 5px rgb(221, 19, 19) solid;
+    color:black;
+    border-radius: 10px;
+}
+.b4 {
+    background-color: orangered;
+    border: 5px red dashed;
+    border-radius: 20px;
+}
+.b5{
+    background-color: gray;
+    border: 5px black dotted;
+    border-radius: 30px;
+    color:black;
+}
+.b6{
+    background-color: lightblue;
+    border: 5px blue double;
+    border-radius: 25px;
+}
+
+#Border_Radius{
+    font-size: 25px;
+}

@@ -1,0 +1,18 @@
+.Bandeira {
+    filter: blur()
+    brightness()
+    contrast()
+    grayscale()
+    invert()
+    opacity()
+    saturate()
+    sepia()
+    hue-rotate()
+
+}
+
+.flag{
+    color: blue;
+    font-size: 40px;
+}
+
